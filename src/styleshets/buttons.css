@@ -1,0 +1,133 @@
+.buttons {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;  
+    left: 1rem;
+    top: 4rem;
+
+    backdrop-filter: blur(2px);
+}
+  
+.button_animal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    min-height: 3rem;  
+
+    background-color: rgba(245, 245, 220, 0);
+    cursor: pointer;
+}
+
+.button_animal:hover {
+    transform: scale(1.1);
+    transition: 500ms;
+}
+
+.button_animal:first-child{  
+    margin-top: 5px;
+}
+
+.button_animal:last-child{  
+    margin-bottom: 5px;
+}
+
+.img_container{
+    width: 90%;
+    min-height: 5rem;
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    background-position: center;
+}
+
+.button_animal h2{ 
+    color: var(--color_marron);  
+    font-family: 'Homemade Apple', system-ui;
+
+    font-size: .9rem;
+    text-align: center;  
+}
+
+@media only screen and (max-width: 600px) {
+    .buttons {
+        position: absolute;
+        flex-direction: row;
+        width: 100%;
+        border: none;
+        left: 0rem;
+        top: 0rem;
+        gap: 3px;
+    }
+    .button_animal:first-child{  
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+    
+    .button_animal:last-child{  
+        margin-bottom: 0px;
+        margin-right: 5px;
+    }
+}
+
+/* Normalizar tamaño de las imagenes, son usadas como background */
+
+.babosa_1{    
+    /* width: 230px; */
+    background-image: url('../assets/buttons/babosa_1.png');    
+}
+
+.babosa_2{  
+    /* width: 150px;   */
+    background-image: url('../assets/buttons/babosa_2.png');    
+}
+
+.baquita_san_antonio{  
+    /* width: 250px; */    
+    background-size: cover; 
+    background-image: url('../assets/buttons/baquita_san_antonio.png');    
+}
+
+.caracol{  
+    /* width: 250px; */
+    background-image: url('/assets/buttons/caracol.png');    
+}
+
+.gati{  
+    background-image: url('../assets/buttons/gati.png');    
+}
+
+.hoja_amarilla{  
+    background-image: url('../assets/buttons/hoja_amarilla.png');    
+}
+
+.hoja_rosa_1{  
+    background-image: url('../assets/buttons/hoja_rosa_1.png');    
+}
+
+.hoja_rosa_2{  
+    background-image: url('../assets/buttons/hoja_rosa_2.png')  
+}
+
+.hoja_rosa_3{  
+    background-image: url('../assets/buttons/hoja_rosa_3.png');    
+}
+
+.hoja_seca{  
+    background-image: url('../assets/buttons/hoja_seca_1.png');    
+}
+
+.mari_abejita{  
+    background-image: url('../assets/buttons/mari_abejita.png');    
+}
+
+.polilla{  
+    background-image: url('../assets/buttons/polilla.png');  
+}
+
+.sapo{  
+    background-image: url('../assets/buttons/sapo.png');    
+}

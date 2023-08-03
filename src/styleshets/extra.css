@@ -1,0 +1,36 @@
+.extra{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+
+  color: var(--color_marron);  
+  font-family: 'Homemade Apple', system-ui;  
+}
+
+.extra h1{
+  margin-top: 4rem;
+  font-size: 3.2em;
+  text-align: center;
+}
+
+.subtitle{
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.extra h3{
+  font-size: 1.2em;
+}
+
+.extra p{
+  font-size: .8em;
+  font-weight: bold;
+  font-family: system-ui, sans-serif;
+}
+

@@ -1,0 +1,53 @@
+:root{
+  --color_marron: rgba(90, 48, 0, 0.877);
+  --color_marron_light: rgba(105, 85, 63, 0.877);
+  --color_marron_dark: rgba(58, 35, 11, 0.877);
+}
+
+@font-face {
+  font-family: 'Homemade Apple';
+  src: url('./fonts/Helloyasmin-MVvVr.ttf');
+}
+@font-face {
+  font-family: 'Helloyasmin';
+  src: url('./fonts/Flowergarden-2OMOW.ttf');
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+
+  background-image: url(./assets/image-dl8qktgl.png);
+  background-repeat: repeat;
+  background-position: center;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start; 
+}
+
+#root main {  
+  width: 80%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+}
+
+@media only screen and (max-width: 600px) {
+  #root {
+    flex-direction: column-reverse;
+  }
+  #root main {
+    width: 95%;
+    margin: 5rem 10px 10px 10px;
+  }
+}

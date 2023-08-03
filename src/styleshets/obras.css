@@ -1,0 +1,31 @@
+
+.obras{
+  width: 100%;
+  align-self: flex-start;
+}
+
+.obras main{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+
+.botones-obras{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+}
+
+.botones-obras .button_animal .img_container{
+  display: none;
+}
+
+.botones-obras .button_animal h2{
+ background-color:beige;
+ border-radius: 15px;
+ border: 1px solid var(--color_marron);
+ padding: 10px;
+ font-weight: bold;
+}
