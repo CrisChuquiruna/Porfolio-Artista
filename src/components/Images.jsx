@@ -2,11 +2,14 @@ import { useImages } from '../hooks/useImages'
 import '../styleshets/dibujos.css'
 import { ImgLightBox } from './ImgLightBox'
 
-export const Images = ({ album_name }) => {
-  
-  const images = useImages(album_name)
+export const Images = ({ album_name }) => {  
+  const { images, loading } = useImages(album_name)
+
   return (
-    <section className="dibujos_container">
+    <>
+    {
+    loading ? <span className='loading_container'>Cargando...</span>
+    :<section className="dibujos_container">
       {
         images.map((img, index) => {                       
           return (
@@ -19,5 +22,6 @@ export const Images = ({ album_name }) => {
         })
       }
     </section>
-  )
-}
+    }
+    </>
+)}

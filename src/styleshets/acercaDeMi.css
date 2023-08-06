@@ -1,0 +1,21 @@
+.acercaDeMi {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.acercaDeMi h1{
+  font-size: 5rem;
+  color: var(--color_marron);
+  font-family: Helloyasmin;
+  text-align: center;
+  margin-bottom: 4rem ;
+  margin-top: 4rem;
+}
+
+.acercaDeMi p{
+  font-size: 2rem;
+  color: var(--color_marron);
+  font-family: Helloyasmin;
+  text-align: center;
+}

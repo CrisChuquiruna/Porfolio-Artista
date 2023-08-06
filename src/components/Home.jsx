@@ -1,5 +1,6 @@
 import '../styleshets/home.css'
 import { Icons } from './Icons'
+import 'animate.css';
 
 export const Home = ({ name, subtitle }) => {
   return (

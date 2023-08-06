@@ -27,19 +27,18 @@ body{
 
 #root {
   width: 100%;
-  min-height: 100vh;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start; 
+  justify-content: center;
+  align-items: center; 
 }
 
 #root main {  
   width: 80%;
-  min-height: 100vh;
+  height: 70vh;
+  height: 70dvh;
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-left: 15%;
+  align-items: start;
 }
 
 @media only screen and (max-width: 600px) {
@@ -48,6 +47,7 @@ body{
   }
   #root main {
     width: 95%;
-    margin: 5rem 10px 10px 10px;
+    margin-top: 7rem;
+    margin-left: 0;
   }
 }

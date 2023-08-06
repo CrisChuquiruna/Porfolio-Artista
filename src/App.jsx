@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { Buttons } from './components/Buttons'
 import { PAGES } from './constants/Pages'
 
-
 import './styleshets/reset.css'
 
 function App() {

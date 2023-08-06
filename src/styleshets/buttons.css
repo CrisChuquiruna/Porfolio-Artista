@@ -1,4 +1,5 @@
 .buttons {
+    width: 7%;
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -6,9 +7,7 @@
     align-items: center;
     gap: 1rem;  
     left: 1rem;
-    top: 4rem;
-
-    backdrop-filter: blur(2px);
+    top: 8rem;
 }
   
 .button_animal{
@@ -59,8 +58,14 @@
         width: 100%;
         border: none;
         left: 0rem;
-        top: 0rem;
+        top: .5rem;
         gap: 3px;
+    }
+    .img_container{
+        min-height: 4rem;
+    }
+    .button_animal h2{         
+        font-size: 1.2rem;
     }
     .button_animal:first-child{  
         margin-top: 0px;
